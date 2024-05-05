@@ -1,0 +1,16 @@
+[programs.devnet]
+airdrop = "rCYwPKHLqo4M74vSQjnL4Va6K6M8gooe2WryGKjyp8s"
+[programs.mainnet]
+airdrop = "EfB7KGE988VGLpZJBLzK38uH5updaxfJUfDoNhg9DGpo"
+[programs.testnet]
+airdrop = "678qgbjH5Qts8FfCNZ1uuyYBGJocACJ21F4sY7jtEJGm"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/Guardian/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
